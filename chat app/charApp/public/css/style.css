@@ -1,0 +1,46 @@
+body{
+	background-color:black;
+
+
+}
+#container{
+	margin:80px 0px 0px 0px; 
+	color: white;
+	background-color: grey;
+	border:5px solid white;
+	font-weight: bold;
+	text-align: center;
+	height: 500px;
+	position: relative;
+}
+#chatApp{
+	margin: 20px;
+	font-size: 40px;
+}
+
+#form{
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom:10px; 
+}
+.message-user{
+	font-size: 15px;
+	text-align:left;
+	color: green;
+}
+#room {
+
+	margin:80px 0px 0px 0px; 
+	color:white;
+	background-color: grey;
+	border:2px solid white;
+	font-weight: bold;
+	text-align: center;
+	height: 500px;
+	position: relative;
+}
+#room h4{
+		font-size: 30px;
+
+				}

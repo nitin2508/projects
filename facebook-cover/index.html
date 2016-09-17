@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACER</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <nav id="head-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">
+                        <div id="brand">ACER</div>
+                    </a>
+                </div>
+                <form id="login-form" class="navbar-form navbar-right hidden-xs " role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="username">
+                        <input type="password" class="form-control" placeholder="password">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div id="main-content" class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <p id="slogan">Help you to connect and share with people in your life.</p>
+                <img class="img-responsive" src="fb.jpg ">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div id="form">
+                    <p id="create-account">Create An Account</p>
+                    <p id="free">It's always be free</p>
+                    <form data-toggle="validator" role="form">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" required="true" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" required="true" class="form-control" placeholder="Surname">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="phone-no-1" type="text" pattern="\d{10}" value="" title="Needed 10 digit phone no" required="true" class="form-control" id="phone-no" placeholder="Enter Mobile number">
+                        </div>
+                        <div class="form-group">
+                            <input id="phone-no-2" type="text" pattern="\d{10}" required="true" value="" class="form-control" id="phone-no-confirm" title="Need 10 digit phone no" placeholder="Re-enter mobile">
+                        </div>
+                        <div id="phone-match-alert" hidden="true" class="alert alert-danger  alert-dismissible " role="alert">
+                            Phone no doesnot matched
+                        </div>
+                        <div class="form-group">
+                            <input type="password" minlength="6" required="true" class="form-control" id="phone-no" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <p>Birthday</p>
+                            <select>
+                                <option>Day</option>
+                            </select>
+                            <select>
+                                <option>Month</option>
+                            </select>
+                            <select>
+                                <option>Year</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="radio" name="gender" value="male" aria-label="Male"> Male
+                            <input type="radio" name="gender" value="female" aria-label="Female"> Female
+                        </div>
+                        <p id="terms-condition">By clicking Create an account, you agree to our Terms and that </br> you have read our Data Policy, including our Cookie Use.</p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <button type="submit" id="submit-button" class="btn btn-default">Create an account</button>
+                            </div>
+                        </div>
+                        </br>
+                        <p id="celebrity-text">Create a Page for a celebrity, band or business.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All rights reserved by facebook</footer>
+    <script src="jscript/jquery-3.1.0.min.js"></script>
+    <script src="jscript/bootstrap.min.js"></script>
+    <script src="jscript/script.js"></script>
+</body>
+
+</html>

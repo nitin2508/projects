@@ -1,0 +1,8 @@
+todos.init();
+todos.bindfunction();
+
+
+
+
+
+

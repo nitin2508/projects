@@ -1,0 +1,64 @@
+#head-nav {
+	background-color:#3a5795;
+	height: 80px;
+	box-shadow: 1px;
+	margin-bottom: 0px;
+}
+#brand{
+	color:white;
+	font-size: 40px;
+	margin: 15px 10px 15px 25px;
+	font-weight: bold;
+}
+#login-form{
+	margin:20px 50px 15px 30px;
+}
+
+#login-form input{
+margin-right:5px; 
+
+}
+#main-content{
+  background: #DFE2E6; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top, #E4EDF7,#DFE2E6) /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom , #E4EDF7,#DFE2E6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right,#E4EDF7,#DFE2E6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom,#E4EDF7,#DFE2E6); /* Standard syntax */
+}
+#create-account{
+	font-size: 40px;
+	 font-weight: bold;
+	 margin-top: 25px;
+	 margin-bottom: 0px;
+}
+#free{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:0px;
+}
+#submit-button{
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 4px;
+	color: white;
+	background:#69a74e; 
+}
+#terms-condition{
+	font-size: .8em;
+}
+
+#celebrity-text{
+	font-weight: bold;
+}
+footer p{
+	color:black;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+#slogan{
+	font-size: 1.5em;
+	color: #0e385f;
+	font-weight: bold;
+	margin-top:40px;
+}
